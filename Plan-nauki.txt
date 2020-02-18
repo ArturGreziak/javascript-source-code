@@ -1,0 +1,15 @@
+1.Operatory
+2.Instrukcje warunkowe
+3.Pętle for i while
+4.Struktura Danych
+5.Number i Math 
+6.Strings
+8.Object
+10.Tablice i tematy pochodne
+11.Funkcje-tematy-pochodne 
+12.Obiekty 
+13.Destrukturyzacja
+14.Konstruktor
+15.Class
+16.RegExp
+17.Obiekt Date
