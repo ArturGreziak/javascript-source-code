@@ -1,5 +1,5 @@
 
-var arr = [12, 67, 34, 23.01, 24, 2, 56, 8, 0 * 10, 23.02, 78, 34, 1e2, 45, 67, 98, 1];
+var arr = [6, 7, 3, 2, 1, 0];
 
 console.log('Kolejność liczb na tablicy przed sortowaniem to: ' + arr);
 
