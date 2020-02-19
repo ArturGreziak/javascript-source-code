@@ -84,37 +84,3 @@ window.onload = function() {
 		document.getElementById("news8").style.display = "inline";
 	}
 }
-var url = 'https://api.icndb.com/jokes/random';
-var button = document.getElementById('get-joke');
-var button = document.getElementById('get-joke2');
-var button = document.getElementById('get-joke3');
-var button = document.getElementById('get-joke4');
-var button = document.getElementById('get-joke5');
-var button = document.getElementById('get-joke6');
-var button = document.getElementById('get-joke7');
-var button = document.getElementById('get-joke8');
-var paragraph = document.getElementById('joke');
-var paragraph = document.getElementById('joke2');
-var paragraph = document.getElementById('joke3');
-var paragraph = document.getElementById('joke4');
-var paragraph = document.getElementById('joke5');
-var paragraph = document.getElementById('joke6');
-var paragraph = document.getElementById('joke7');
-var paragraph = document.getElementById('joke8');
-button.addEventListener('click', function () {
-	getJoke();
-});
-
-(function () {
-	getJoke();
-})();
-
-function getJoke() {
-	var xhr = new XMLHttpRequest();
-	xhr.open('GET', url);
-	xhr.addEventListener('load', function () {
-		var response = JSON.parse(xhr.response);
-		paragraph.innerHTML = response.value.joke;
-	});
-	xhr.send();
-};
