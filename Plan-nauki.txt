@@ -13,3 +13,5 @@
 15.Class
 16.RegExp
 17.Obiekt Date
+
+Link do portalu z ćwiczeniami -> https://edabit.com/user/bDbsdnXEhq7uBp8Pp
