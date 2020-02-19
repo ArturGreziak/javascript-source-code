@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#wrapper, #wrapper2 {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    border:1px solid black;
+}
+
+p {
+    text-align: center;
+}
