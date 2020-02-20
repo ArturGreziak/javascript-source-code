@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
 }
-#wrapper, #wrapper2 {
-    margin: 0 auto;
-    width: 500px;
+#wrapper, #wrapper2, #wrapper3, #wrapper4 {
+    margin: 20px auto 0;
+    width: 600px;
     height: 200px;
     border:1px solid black;
 }
