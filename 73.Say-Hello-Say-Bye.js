@@ -8,7 +8,7 @@ if(num === 1){
     return "Bye " + name[0].toUpperCase() + name.toLowerCase().slice(1);;
 }
 }
-console.log(sayHelloBye("artur", 1));
+console.log(sayHelloBye("artur", 1)); //➞ "Hello Artur"
 
 console.log(sayHelloBye("alon", 1)); //➞ "Hello Alon"
 
