@@ -1,0 +1,51 @@
+FLEX CONTAINER (rodzic) :
+display: flex / inline-flex;
+
+flex-direction: row [ wartość domyślna ] / column / row-reverse / column-reverse;
+
+flex-wrap: wrap / nowrap [ wartość domyślna ];
+
+align-items (prostopadłe do osi głównej): stretch [ wartość domyślna ] / flex-start / flex-end / center;
+
+justify-content (równoległe do osi głównej): flex-start [ wartość domyślna ] / flex-end / center / space-around / space-between / space-evenly;
+
+align-content: stretch [ wartość domyślna ] / center / flex-start / flex-end / space-around / space-between;
+
+
+
+FLEX ITEM (dziecko):
+flex-basis: auto [ wartość domyślna ] / x;
+
+flex-grow: 0 [ wartość domyślna ] / x;
+
+flex-shrink: 0 / 1 [ wartość domyślna ];
+
+order: 0 [ wartość domyślna ] / x;
+
+align-self: auto [ wartość domyślna ] / stretch / flex-start / flex-end / center;
+
+
+
+Zapisy skrócone:
+flex: [grow] [shrink] [flex-basis];
+
+flex-flow: [flex direcrion] [flex wrap]
+
+
+
+Przykłady:
+flex: 1 2 30px
+
+to zapis skrócony dla:
+
+flex-grow: 1;
+flex-shrink: 2;
+flex-basis: 30px;
+
+
+flex-flow: row wrap
+
+to zapis skrócony dla:
+
+flex-direction: row;
+flex-wrap: wrap;
